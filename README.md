@@ -10,8 +10,8 @@ https://hub.docker.com/r/gtripoli/node-chrome/
 
 This [Dockerfile](/Dockerfile) contains:
 
-- node: 10.16.3
-- npm: (bundled with node 10)
+- node: 14.17.0
+- npm: (bundled with node 14)
 - google-chrome: 66
 
 ## Lincense
