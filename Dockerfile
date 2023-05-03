@@ -7,6 +7,8 @@ RUN echo 'deb http://dl.google.com/linux/chrome/deb/ stable main' > /etc/apt/sou
 
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
 
+RUN npm i npm@9 -g
+
 RUN set -x \
     && apt-get update \
     && apt-get install -y \

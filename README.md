@@ -12,7 +12,7 @@ This [Dockerfile](/Dockerfile) contains:
 
 - node: 16.20.0
 - npm: (bundled with node 16)
-- google-chrome: 66
+- google-chrome: 113
 
 ## Lincense
 
